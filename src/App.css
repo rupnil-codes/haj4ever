@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Micro+5&family=Pixelify+Sans:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  overflow-x: hidden;
+  background-image: url("/bg.png");
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.app {
+  width: 100%;
+}
+
+.flag {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 180px;
+  z-index: 100;
+}
+
+.hero {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
+.title-wrap {
+  position: relative;
+}
+
+.new-drop {
+  position: absolute;
+  right: -10px;
+  top: -30px;
+
+  font-family: "Pixelify Sans", monospace;
+  font-size: 28px;
+  font-weight: 700;
+  color: #ff2d2d;
+}
+
+.site-name {
+  font-family: "Micro 5", monospace;
+  font-size: 120px;
+  line-height: 1;
+  color: black;
+  text-align: center;
+}
+
+.tagline {
+  margin-top: 18px;
+  margin-bottom: 42px;
+
+  font-family: "Pixelify Sans", monospace;
+  font-size: 24px;
+  font-weight: 600;
+
+  color: #111;
+}
+
+.btn-submit {
+  width: 605px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 35px;
+
+  display: block;
+
+  transition:
+    transform 0.15s ease,
+    filter 0.15s ease;
+}
+
+.btn-submit:hover {
+  transform: translateY(-4px) scale(1.02);
+  filter: brightness(1.05);
+}
+
+.btn-submit:active {
+  transform: translateY(2px) scale(0.99);
+}
+
+.btn-submit img {
+  width: 100%;
+  display: block;
+}
+
+.cards {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 18px;
+}
+
+.card {
+  border: 0;
+  background: none;
+}
+
+.card img {
+  display: block;
+  width: 100%;
+}
+
+.card-blahaj {
+  width: 540px;
+  margin-top: -15px;
+}
+
+.card-meme {
+  width: 300px;
+}
+
+@media (max-width: 900px) {
+  .site-name {
+    font-size: 60px;
+  }
+
+  .new-drop {
+    font-size: 18px;
+    top: -20px;
+  }
+
+  .btn-submit {
+    width: 90vw;
+  }
+
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-blahaj,
+  .card-meme {
+    width: 90vw;
+    max-width: 470px;
+  }
+
+  .flag {
+    width: 100px;
+  }
+}
