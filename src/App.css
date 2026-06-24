@@ -232,17 +232,33 @@ body {
 .shark1 {
   transform: rotate(-10deg);
 }
+.shark1:hover {
+  scale: 1.5;
+  transition: transform 0.15s ease;
+}
 
 .shark2 {
   transform: rotate(12deg) scaleX(-1) scaleY(-1);
+}
+.shark2:hover {
+  scale: 1.5;
+  transition: transform 0.15s ease;
 }
 
 .shark3 {
   transform: rotate(-8deg);
 }
+.shark3:hover {
+  scale: 1.5;
+  transition: transform 0.15s ease;
+}
 
 .shark4 {
   transform: rotate(10deg) scaleX(-1) scaleY(-1);
+}
+.shark4:hover {
+  scale: 1.5;
+  transition: transform 0.15s ease;
 }
 
 .step p {

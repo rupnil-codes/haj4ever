@@ -102,13 +102,11 @@ export default function App() {
             />
 
             <p>
-              1. Make a Shark/
+              1. Make any
               <br />
-              Ocean themed
+              project for 4, 6,
               <br />
-              project for 8
-              <br />
-              hours.
+              10 or more hours.
             </p>
           </div>
 
