@@ -5,7 +5,7 @@ export default function App() {
     <div className="app">
       <section className="section section1">
         <img
-          src="/hack club flag.svg"
+          src="/hack_club_flag.svg"
           alt="Hack Club Flag"
           className="flag"
         />
@@ -14,7 +14,7 @@ export default function App() {
 
         <div className="topInfo">
           <img
-            src="/me when u:.svg"
+            src="/me_when_u.svg"
             alt="me when u"
             className="meWhenU"
           />
@@ -50,7 +50,7 @@ export default function App() {
                 </p>
 
                 <img
-                  src="/shark dance.gif"
+                  src="/shark_dance.gif"
                   alt="dancing shark"
                   className="danceShark"
                 />
@@ -61,31 +61,31 @@ export default function App() {
 
         <div className="cardsRow">
           <img
-            src="/blahaj table.svg"
+            src="/blahaj_table.svg"
             alt=""
             className="card card1"
           />
 
           <img
-            src="/a wild blahaj.svg"
+            src="/a_wild_blahaj.svg"
             alt=""
             className="card card2"
           />
 
           <img
-            src="/guys i think i like sharks.svg"
+            src="/guys_i_think_i_like_sharks.svg"
             alt=""
             className="card card3"
           />
 
           <img
-            src="/my honest reaction to this ysws.svg"
+            src="/my_honest_reaction_to_this_ysws.svg"
             alt=""
             className="card card4"
           />
 
           <img
-            src="/blahaj underwater.svg"
+            src="/blahaj_underwater.svg"
             alt=""
             className="card card5"
           />
@@ -96,7 +96,7 @@ export default function App() {
         <div className="stepsContainer">
           <div className="step">
             <img
-              src="/blahaj spinning.gif"
+              src="/blahaj_spinning.gif"
               alt=""
               className="spinShark shark1"
             />
@@ -114,7 +114,7 @@ export default function App() {
 
           <div className="step">
             <img
-              src="/blahaj spinning.gif"
+              src="/blahaj_spinning.gif"
               alt=""
               className="spinShark shark2"
             />
@@ -128,7 +128,7 @@ export default function App() {
 
           <div className="step">
             <img
-              src="/blahaj spinning.gif"
+              src="/blahaj_spinning.gif"
               alt=""
               className="spinShark shark3"
             />
@@ -144,7 +144,7 @@ export default function App() {
 
           <div className="step">
             <img
-              src="/blahaj spinning.gif"
+              src="/blahaj_spinning.gif"
               alt=""
               className="spinShark shark4"
             />
@@ -174,17 +174,17 @@ export default function App() {
 
         <div className="footerImages">
           <img
-            src="/blahaj with headphones.svg"
+            src="/blahaj_with_headphones.svg"
             alt=""
           />
 
           <img
-            src="/blahaj cardboard.svg"
+            src="/blahaj_cardboard.svg"
             alt=""
           />
 
           <img
-            src="/blahaj sweater.svg"
+            src="/blahaj_sweater.svg"
             alt=""
           />
         </div>
