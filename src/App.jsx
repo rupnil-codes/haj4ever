@@ -28,7 +28,7 @@ export default function App() {
 
             <div className="submitRow">
               <a
-                href="https://haj4ever.fillout.com/submit"
+                href="https://hack.club/haj4ever-submission"
                 target="_blank"
                 rel="noreferrer"
                 className="submitButton"
@@ -179,14 +179,17 @@ export default function App() {
           />
 
           <img
-            src="/blahaj_cardboard.svg"
+            src="/blahaj_cluster.svg"
             alt=""
           />
 
           <img
-            src="/blahaj_sweater.svg"
+            src="/blahaj_campfire.png"
             alt=""
           />
+        </div>
+        <div className="creditText">
+          made possible by Jenin &amp; Dhamari
         </div>
       </section>
     </div>

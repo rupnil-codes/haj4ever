@@ -295,7 +295,7 @@ body {
 .footerTitle {
   font-family: "Covered By Your Grace";
 
-  font-size: 7rem;
+  font-size: 6rem;
   font-weight: 100;
 
   color: white;
@@ -303,42 +303,41 @@ body {
   -webkit-text-stroke: 1rem black;
   paint-order: stroke fill;
 
-  margin-bottom: -1rem;
+  margin-bottom: 1.5rem;
 }
 
 .creditText {
-  margin-top: 10px;
+  margin-top: -2rem;
 
   font-family: "Pixelify Sans";
-  font-size: 24px;
+  font-size: 1.3rem;
   font-weight: 600;
 
-  color: white;
-  
-  text-shadow:
-    1px 0 #000,
-   -1px 0 #000,
-    0 1px #000,
-    0 -1px #000;
+  color: black;
+
+  -webkit-text-stroke: 0.75rem white;
+  paint-order: stroke fill;
+
   line-height: 1;
 }
 
 .footerImages {
-  margin-top: 30px;
-
   display: flex;
-  gap: 50px;
+  gap: 3rem;
 }
 
 .footerImages img:nth-child(1) {
   width: 280px;
+  margin-top: -2rem;
 }
 
 .footerImages img:nth-child(2) {
+  margin-top: -2rem;
   width: 350px;
 }
 
 .footerImages img:nth-child(3) {
+  margin-top: -2rem;
   width: 280px;
 }
 
