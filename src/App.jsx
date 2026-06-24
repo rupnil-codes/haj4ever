@@ -21,9 +21,9 @@ export default function App() {
 
           <div className="heroContent">
             <p className="introText">
-              ship anything shark/ocean related for 8 hours
+              Code 6, 8, or 10 Hours or more-
               <br />
-              get a blahaj shipped to you!!
+              get blahaj/smolhaj/both! shipped to you!
             </p>
 
             <div className="submitRow">
@@ -38,7 +38,7 @@ export default function App() {
 
               <div className="questionBlock">
                 <p className="questionText">
-                  Questions? Join{" "}
+                  Questions? <br/> Join:{" "}
                   <a
                     href="https://hackclub.enterprise.slack.com/archives/C0ATRK4G5NY"
                     target="_blank"

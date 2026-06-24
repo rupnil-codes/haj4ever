@@ -26,28 +26,30 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  width: 180px;
+  width: 12rem;
   z-index: 100;
+
+  margin-left: 1rem;
 }
 
 .section1 {
-  background: url("/background first section.svg");
+  background: url("public/background_first_section.svg");
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: top center;
 
-  min-height: 950px;
+  min-height: 1080px;
 
   display: flex;
   flex-direction: column;
   align-items: center;
 
-  padding-top: 70px;
+  padding-top: 8rem;
 }
 
 .mainTitle {
   font-family: "Covered By Your Grace";
-  font-size: 9rem;
+  font-size: 6.5rem;
   font-weight: 400;
 
   color: #000;
@@ -55,26 +57,20 @@ body {
   line-height: 0.8;
   text-align: center;
 
-  text-shadow:
-    3px 0 #fff,
-   -3px 0 #fff,
-    0 3px #fff,
-    0 -3px #fff,
-    2px 2px #fff,
-   -2px 2px #fff,
-    2px -2px #fff,
-   -2px -2px #fff;  
-  margin-bottom: 10px;
+  -webkit-text-stroke: 1rem white;
+  paint-order: stroke fill;
+
+  margin-bottom: 2rem;
 }
 
 .topInfo {
   display: flex;
   align-items: center;
-  gap: 25px;
+  gap: 2rem;
 }
 
 .meWhenU {
-  width: 210px;
+  width: 15rem;
 }
 
 .heroContent {
@@ -86,15 +82,12 @@ body {
 .introText {
   font-family: "Pixelify Sans";
   font-weight: 600;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
 
-  color: white;
+  color: black;
 
-  text-shadow:
-    1px 0 #000,
-   -1px 0 #000,
-    0 1px #000,
-    0 -1px #000;
+  -webkit-text-stroke: 0.75rem white;
+  paint-order: stroke fill;
 
   max-width: 600px;
 } 
@@ -130,21 +123,18 @@ body {
 }
 
 .questionText {
-  font-family: "Pixelify Sans";
+  font-family: "Pixelify Sans", serif;
   font-size: 1.5rem;
   font-weight: 600;
 
-  color: black;
+  color: white;
 
-  text-shadow:
-    1px 0 white,
-   -1px 0 white,
-    0 1px white,
-    0 -1px white;
+  -webkit-text-stroke: 0.75rem black;
+  paint-order: stroke fill;
 }
 
 .hajTag {
-  color: #000ac3;
+  color: #777fff;
   text-decoration: none;
   transition: 0.15s ease;
 }
@@ -155,11 +145,11 @@ body {
 }
 
 .danceShark {
-  width: 70px;
+  width: 5rem;
 }
 
 .cardsRow {
-  margin-top: 40px;
+  margin-top: 5rem;
 
   display: flex;
   justify-content: center;
@@ -169,41 +159,45 @@ body {
 }
 
 .card1 {
-  width: 240px;
-  transform: rotate(-8deg);
-  margin-right: -50px;
+  height: 22rem;
+  margin-right: -6rem;
+  margin-bottom: -1rem;
   z-index: 1;
 }
 
 .card2 {
-  width: 360px;
-  transform: rotate(2deg);
-  margin-right: -40px;
+  height: 18rem;
+  transform: rotate(-2deg);
+  margin-right: -2.5rem;
   z-index: 2;
 }
 
 .card3 {
-  width: 200px;
+  height: 18rem;
   transform: rotate(8deg);
-  margin-right: -20px;
+  margin-right: -5rem;
+  margin-left: -5rem;
+  margin-bottom: -6rem;
   z-index: 3;
 }
 
 .card4 {
-  width: 240px;
+  height: 22rem;
   transform: rotate(-8deg);
   margin-right: -20px;
   z-index: 2;
 }
 
 .card5 {
-  width: 240px;
+  height:20rem;
   transform: rotate(8deg);
+  margin-left: -5rem;
+  margin-bottom: -5rem;
   z-index: 1;
 }
 
 .section2 {
-  background: url("/background middle section.svg");
+  background: url("public/background_middle_section.svg");
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: top center;
@@ -240,7 +234,7 @@ body {
 }
 
 .shark2 {
-  transform: rotate(12deg) scaleX(-1);
+  transform: rotate(12deg) scaleX(-1) scaleY(-1);
 }
 
 .shark3 {
@@ -248,21 +242,18 @@ body {
 }
 
 .shark4 {
-  transform: rotate(10deg) scaleX(-1);
+  transform: rotate(10deg) scaleX(-1) scaleY(-1);
 }
 
 .step p {
   font-family: "Pixelify Sans";
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   font-weight: 600;
 
   color: white;
 
-  text-shadow:
-    1px 0 #000,
-   -1px 0 #000,
-    0 1px #000,
-    0 -1px #000;
+  -webkit-text-stroke: 0.75rem black;
+  paint-order: stroke fill;
 
   line-height: 1;
 }
@@ -275,6 +266,9 @@ body {
   font-weight: 600;
 
   color: white;
+
+  -webkit-text-stroke: 0.75rem black;
+  paint-order: stroke fill;
   
   text-shadow:
     1px 0 #000,
@@ -288,7 +282,7 @@ body {
 }
 
 .section3 {
-  background: url("/background last section.svg");
+  background: url("public/background_last_section.svg");
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: top center;
