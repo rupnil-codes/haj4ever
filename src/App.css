@@ -33,7 +33,7 @@ body {
 }
 
 .section1 {
-  background: url("public/background_first_section.svg");
+  background: url("/background_first_section.svg");
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: top center;
@@ -197,7 +197,7 @@ body {
 }
 
 .section2 {
-  background: url("public/background_middle_section.svg");
+  background: url("/background_middle_section.svg");
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: top center;
@@ -282,7 +282,7 @@ body {
 }
 
 .section3 {
-  background: url("public/background_last_section.svg");
+  background: url("/background_last_section.svg");
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: top center;
