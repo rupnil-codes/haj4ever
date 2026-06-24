@@ -5,7 +5,7 @@ export default function App() {
     <div className="app">
       <section className="section section1">
         <img
-          src="/hack_club_flag.svg"
+          src="https://cdn.hackclub.com/019efadb-bc72-7214-b372-7fd576af7b97/hack_club_flag.svg"
           alt="Hack Club Flag"
           className="flag"
         />
@@ -14,14 +14,14 @@ export default function App() {
 
         <div className="topInfo">
           <img
-            src="/me_when_u.svg"
+            src="https://cdn.hackclub.com/019efadb-bfe6-76e9-b50d-33cc982b12d3/me_when_u.svg"
             alt="me when u"
             className="meWhenU"
           />
 
           <div className="heroContent">
             <p className="introText">
-              Code 6, 8, or 10 Hours or more-
+              Code for 6, 8, 10 or more hours-
               <br />
               get blahaj/smolhaj/both! shipped to you!
             </p>
@@ -33,7 +33,7 @@ export default function App() {
                 rel="noreferrer"
                 className="submitButton"
               >
-                <img src="/submit.svg" alt="Submit" />
+                <img src="https://cdn.hackclub.com/019efadb-c8ca-7ba1-be92-382311255995/submit.svg" alt="Submit" />
               </a>
 
               <div className="questionBlock">
@@ -50,7 +50,7 @@ export default function App() {
                 </p>
 
                 <img
-                  src="/shark_dance.gif"
+                  src="https://cdn.hackclub.com/019efadb-c5d5-7700-956a-b89b8e82b05d/shark_dance.gif"
                   alt="dancing shark"
                   className="danceShark"
                 />
@@ -61,31 +61,31 @@ export default function App() {
 
         <div className="cardsRow">
           <img
-            src="/blahaj_table.svg"
+            src="https://cdn.hackclub.com/019efadb-69f3-7511-be3f-73552eacf173/blahaj_table.svg"
             alt=""
             className="card card1"
           />
 
           <img
-            src="/a_wild_blahaj.svg"
+            src="https://cdn.hackclub.com/019efadb-530c-7bb8-9373-21c4beb0ea33/a_wild_blahaj.svg"
             alt=""
             className="card card2"
           />
 
           <img
-            src="/guys_i_think_i_like_sharks.svg"
+            src="https://cdn.hackclub.com/019efadb-cbca-7516-b50c-3f9f8de5784e/guys_i_think_i_like_sharks.svg"
             alt=""
             className="card card3"
           />
 
           <img
-            src="/my_honest_reaction_to_this_ysws.svg"
+            src="https://cdn.hackclub.com/019efadb-c2b7-7019-8ddb-eddc27b3a0d0/my_honest_reaction_to_this_ysws.svg"
             alt=""
             className="card card4"
           />
 
           <img
-            src="/blahaj_underwater.svg"
+            src="https://cdn.hackclub.com/019efadb-6cda-74ea-93b0-805117f58aae/blahaj_underwater.svg"
             alt=""
             className="card card5"
           />
@@ -96,7 +96,7 @@ export default function App() {
         <div className="stepsContainer">
           <div className="step">
             <img
-              src="/blahaj_spinning.gif"
+              src="https://cdn.hackclub.com/019efadb-676b-7af0-80e5-e0bf5e64ed35/blahaj_spinning.gif"
               alt=""
               className="spinShark shark1"
             />
@@ -112,7 +112,7 @@ export default function App() {
 
           <div className="step">
             <img
-              src="/blahaj_spinning.gif"
+              src="https://cdn.hackclub.com/019efadb-676b-7af0-80e5-e0bf5e64ed35/blahaj_spinning.gif"
               alt=""
               className="spinShark shark2"
             />
@@ -126,7 +126,7 @@ export default function App() {
 
           <div className="step">
             <img
-              src="/blahaj_spinning.gif"
+              src="https://cdn.hackclub.com/019efadb-676b-7af0-80e5-e0bf5e64ed35/blahaj_spinning.gif"
               alt=""
               className="spinShark shark3"
             />
@@ -142,7 +142,7 @@ export default function App() {
 
           <div className="step">
             <img
-              src="/blahaj_spinning.gif"
+              src="https://cdn.hackclub.com/019efadb-676b-7af0-80e5-e0bf5e64ed35/blahaj_spinning.gif"
               alt=""
               className="spinShark shark4"
             />
@@ -172,17 +172,17 @@ export default function App() {
 
         <div className="footerImages">
           <img
-            src="/blahaj_with_headphones.svg"
+            src="https://cdn.hackclub.com/019efadb-6f92-79c3-9841-5126ec410a89/blahaj_with_headphones.svg"
             alt=""
           />
 
           <img
-            src="/blahaj_cluster.svg"
+            src="https://cdn.hackclub.com/019efadb-6263-7b88-be53-37942f8b55d2/blahaj_cluster.svg"
             alt=""
           />
 
           <img
-            src="/blahaj_campfire.png"
+            src="https://cdn.hackclub.com/019efadb-5ee5-77fb-98ae-8ad68114f0fb/blahaj_campfire.png"
             alt=""
           />
         </div>

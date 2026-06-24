@@ -33,7 +33,7 @@ body {
 }
 
 .section1 {
-  background: url("/background_first_section.svg");
+  background: url("https://cdn.hackclub.com/019efadb-55fc-7796-a993-d1415b97bf67/background_first_section.svg");
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: top center;
@@ -197,7 +197,7 @@ body {
 }
 
 .section2 {
-  background: url("/background_middle_section.svg");
+  background: url("https://cdn.hackclub.com/019efadb-5c0d-7f0f-8516-6e47eb1753e3/background_middle_section.svg");
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: top center;
@@ -293,7 +293,7 @@ body {
 }
 
 .section3 {
-  background: url("/background_last_section.svg");
+  background: url("https://cdn.hackclub.com/019efadb-58b7-71f8-8b3d-24cdb9049aef/background_last_section.svg");
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: top center;
