@@ -32,6 +32,36 @@ body {
   margin-left: 1rem;
 }
 
+.popSmall {
+  transition:  cubic-bezier(0.55, 0.055, 0.675, 0.675) 0.15s;
+}
+.popSmall:hover {
+  scale: 1.05;
+  transition:  cubic-bezier(0.55, 0.055, 0.675, 0.675) 0.15s;
+}
+.pop {
+  transition:  cubic-bezier(0.55, 0.055, 0.675, 0.675) 0.15s;
+}
+.pop:hover {
+  scale: 1.1;
+  transition:  cubic-bezier(0.55, 0.055, 0.675, 0.675) 0.15s;
+}
+.popLarge {
+  transition:  cubic-bezier(0.55, 0.055, 0.675, 0.675) 0.15s;
+}
+.popLarge:hover {
+  scale: 1.7;
+  transition:  cubic-bezier(0.55, 0.055, 0.675, 0.675) 0.15s;
+}
+.popTurn {
+  transition:  cubic-bezier(0.55, 0.055, 0.675, 0.675) 0.15s;
+}
+.popTurn:hover {
+  scale: 1.1;
+  rotate: -2deg;
+  transition:  cubic-bezier(0.55, 0.055, 0.675, 0.675) 0.15s;
+}
+
 .section1 {
   background: url("https://cdn.hackclub.com/019efadb-55fc-7796-a993-d1415b97bf67/background_first_section.svg");
   background-size: 100% auto;
@@ -232,33 +262,17 @@ body {
 .shark1 {
   transform: rotate(-10deg);
 }
-.shark1:hover {
-  scale: 1.5;
-  transition: transform 0.15s ease;
-}
 
 .shark2 {
   transform: rotate(12deg) scaleX(-1) scaleY(-1);
-}
-.shark2:hover {
-  scale: 1.5;
-  transition: transform 0.15s ease;
 }
 
 .shark3 {
   transform: rotate(-8deg);
 }
-.shark3:hover {
-  scale: 1.5;
-  transition: transform 0.15s ease;
-}
 
 .shark4 {
   transform: rotate(10deg) scaleX(-1) scaleY(-1);
-}
-.shark4:hover {
-  scale: 1.5;
-  transition: transform 0.15s ease;
 }
 
 .step p {
@@ -328,6 +342,8 @@ body {
   font-family: "Pixelify Sans";
   font-size: 1.3rem;
   font-weight: 600;
+
+  z-index: 3;
 
   color: black;
 
