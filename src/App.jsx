@@ -27,7 +27,7 @@ export default function App() {
 
           <div className="heroContent">
             <p className="introText popTurn">
-              Code for 6, 8, 10 or more hours-
+              Code for 4, 6, 10 or more hours-
               <br />
               get smolhaj/blahaj/both! shipped to you!
             </p>
